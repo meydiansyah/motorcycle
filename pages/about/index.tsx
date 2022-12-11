@@ -35,13 +35,6 @@ const About: NextPage = () => (
         </div>
       </div>
     </div>
-    {/* <Image
-        alt="The guitarist in the concert."
-        src="https://tiger-club.or.id/upload/gallery/gallery-wingday3dokumentasi-1587235677.jpg?time=1670224686"
-        width={2250}
-        height={1390}
-        layout="responsive"
-      /> */}
     <section>
       <div className="max-w-5xl mx-auto my-12 flex flex-col items-center sm:px-5 md:flex-row tails-selected-element">
         <div className="flex flex-col items-start justify-center w-full h-full py-6 pr-16 mb-6 md:mb-0 md:w-3/2">
@@ -89,6 +82,56 @@ const About: NextPage = () => (
     </section>
     <SupportBy />
     <News showList={false} />
+    <div className="w-full px-3 my-12 antialiased lg:px-6 flex items-center justify-center ">
+      <div className="mx-auto max-w-5xl center">
+        <div className="container py-auto mx-auto text-center sm:px-4 ">
+          <h2 className="text-base font-semibold text-indigo-600 tracking-wide uppercase">
+            visi misi
+          </h2>
+
+          <h1 className="text-4xl font-semibold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl xl:text-7xl">
+            Honda Tiger Club Indonesia
+          </h1>
+
+          <div className="max-w-5xl mx-auto my-12 flex flex-col items-start sm:px-5 md:flex-row tails-selected-element">
+            <div className="flex flex-col items-start justify-center w-full h-full py-6 pr-16 mb-6 md:mb-0 md:w-3/2">
+              <div className="flex flex-col px-4 items-start justify-center h-full space-y-3 transform md:pl-10 lg:pl-16 md:space-y-5">
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                  Visi
+                </h2>
+                <div className=" mt-6 text-sm text-justify text-black sm:text-base ">
+                  1. MEMPERAT SILAHTURAHMI
+                </div>
+                <div className=" mt-6 text-sm text-justify text-black sm:text-base ">
+                  2. MEMPERAT KEKOMPAKAN
+                </div>
+                <div className=" mt-6 text-sm text-justify text-black sm:text-base ">
+                  3. MENJALIN KEBERSAMAAN
+                </div>
+                <div className=" mt-6 text-sm text-justify text-black sm:text-base ">
+                  4. MENJALIN ORGANISASI YANG KUAT
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col items-start justify-center w-full h-full py-6 pr-16 mb-6 md:mb-0 md:w-3/2">
+              <div className="flex flex-col px-4 items-start justify-center h-full space-y-3 transform md:pl-10 lg:pl-16 md:space-y-5">
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                  Misi
+                </h2>
+                <div className=" mt-6 text-sm text-justify text-black sm:text-base ">
+                  Dengan Adanya Komunitas Honda Tiger Club Indonesia Ini
+                  Diharapkan Bisa Untuk Ajang Silahturahmi Untuk Para Anggota.
+                  Dan Selain Itu Semoga Komunitas Ini Bisa Membuat Kebersamaan
+                  Yang Kuat Untuk Semua Anggota. Honda Tiger Club Indonesia Ini
+                  Ingin Menyatukan Semua Pikiran-Pikiran Yang Berbeda Untuk
+                  Menuju Satu Tujuan Yang Sama
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </AppLayout>
 );
 

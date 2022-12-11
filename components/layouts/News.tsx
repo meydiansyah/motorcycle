@@ -6,8 +6,8 @@ const News = ({ showList }) => {
   const listNews = DataNews;
 
   return (
-    <section className="my-24">
-      <div className="max-w-5xl mx-auto flex flex-col  items-center sm:px-5 md:flex-row tails-selected-element">
+    <section className="my-24 px-8 lg:items-center">
+      <div className="max-w-5xl mx-auto flex flex-col items-center sm:px-5 md:flex-row tails-selected-element ">
         <div className="w-full md:w-1/2">
           <a href="#_" className="block">
             <img
@@ -17,8 +17,8 @@ const News = ({ showList }) => {
             />
           </a>
         </div>
-        <div className="flex flex-col items-start justify-center w-full h-full py-6 mb-6 md:mb-0 md:w-3/2">
-          <div className="flex flex-col items-start justify-center h-full space-y-3 transform md:pl-10 lg:pl-16 md:space-y-5">
+        <div className="flex flex-col items-center lg:items-start justify-center w-full h-full py-6 mb-6 md:mb-0 md:w-3/2">
+          <div className="flex flex-col lg:items-start justify-center h-full space-y-3 transform md:pl-10 lg:pl-16 md:space-y-5">
             <div className="bg-red-500 flex items-center pl-2 pr-3 py-1.5 leading-none rounded-full text-xs font-medium uppercase text-white inline-block">
               <svg
                 className="w-3.5 h-3.5 mr-1"

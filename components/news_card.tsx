@@ -4,7 +4,7 @@ import React from "react";
 const NewsCard = (data: NewsType) => {
   const items = data;
   return (
-    <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
+    <div className="flex flex-col items-center lg:items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
       <a href="#_" className="block">
         <img
           alt="img"

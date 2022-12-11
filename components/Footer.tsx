@@ -7,10 +7,10 @@ const Footer = () => (
         href="#_"
         className="text-xl font-black leading-none text-gray-900 select-none logo"
       >
-        tails<span className="text-indigo-600">.</span>
+        htci<span className="text-indigo-600">.</span>
       </a>
       <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0">
-        © 2021 Tails - Tailwindcss Page Builder
+        © 2021 HTCI - Honda Tiger Club Indonesia
       </p>
       <span className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
         <a href="#" className="text-gray-400 hover:text-gray-500">
