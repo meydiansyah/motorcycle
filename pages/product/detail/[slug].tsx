@@ -132,7 +132,7 @@ const Product: NextPage = () => {
           </div>
         </section>
       )}
-    </AppL>
+    </AppLayout>
   );
 };
 

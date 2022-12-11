@@ -20,8 +20,8 @@ const ModalLogin = () => {
   const [password, setPassword] = useState("m38rmF$");
   const [login, { isLoading }] = useLoginMutation();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
+    // e.preventDefault();
     login({
       username: email,
       password,
@@ -31,6 +31,7 @@ const ModalLogin = () => {
       setPassword("m38rmF$");
       dispatch(setToast("Login berhasil"));
     });
+    return false;
   };
 
   const closeHandler = () => {
